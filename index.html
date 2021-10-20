@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Document</title>
+    <title>Weather DashBoard</title>
 
     <!-- reset.css -->
     <link rel="stylesheet" href="./assets/css/reset.css">
@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <h1>Weather Dashboard</h1>
+        <h1 class="container-fluid">Weather Dashboard</h1>
     </header>
 
     <section class="searchCityEl">
@@ -35,12 +35,17 @@
                             aria-label="Search">
                         <button class="btn btn-outline-success" type="submit" id="searchBtn">Search</button>
                     </form>
+                    <ul class="list-group col-6" id="cityList">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A fourth item</li>
+                        <li class="list-group-item">And a fifth one</li>
+                      </ul>
                 </div>
             </nav>
         </div>
-        <div id="cityList">
-
-        </div>
+        
     </section>
     <section class="right">
         <div id="cityStats">
