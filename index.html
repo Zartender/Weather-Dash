@@ -25,27 +25,16 @@
         <h1 class="container-fluid">Weather Dashboard</h1>
     </header>
 
-    <section class="searchCityEl">
+    <section class="textInputEl">
         <div class="row">
-        <div class="col-4" id="searchForCity">
-            <nav class="navbar navbar-light bg-light">
-                <div class="container-fluid">
-                    <form class="d-flex">
-                        <input class="form-control me-2" id="citySearch" type="search" placeholder="Search"
-                            aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit" id="searchBtn">Search</button>
-                    </form>
-                    <ul class="list-group col-6" id="cityList">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
-                        <li class="list-group-item">And a fifth one</li>
-                      </ul>
-                </div>
-            </nav>
-        </div>
-        
+            <h2>Search for a city:</h2>
+            <div class="col-4" id="actualTextIn">
+
+                <!-- When the input field gets focus, replace its current value with an empty string -->
+                <input type="text" id="citySearch" onfocus="this.value=" value="Input City Here!">
+                <button class="btn btn-outline-success" type="submit" id="searchBtn">Search</button>
+            </div>
+
     </section>
     <section class="right">
         <div id="cityStats">

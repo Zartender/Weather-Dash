@@ -1,4 +1,21 @@
-:root{
+:root {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+   
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    background-image: linear-gradient(to right, rgb(102, 178, 240) , rgb(13, 4, 153));
+    color: whitesmoke;
+    padding-bottom: .35rem;
+}
+
+#citySearch, #searchBtn { 
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    
 }
