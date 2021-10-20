@@ -38,3 +38,23 @@ function fiveDayFore() {
 var buttonSearch = document.getElementById("searchBtn");
 
 buttonSearch.addEventListener("click", concludeSearch);
+
+
+// cityName.html(data.name + ", " + moment().format("MMM Do YYYY") + "<img src=" + icon + " />");
+
+// {/* <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> */}
+
+// function addToList(name){
+    // var list = document.querySelector('.button-list');
+    // var button = document.createElement('button');
+    // button.innerHTML = name;
+    // button.classList.add('btn');
+    // button.classList.add('btn-primary');
+    // button.addEventListener('click', function(){
+    //     updateCity(name);
+    // });
+    // cityNames.push(name);
+    // localStorage.setItem('cityNames', JSON.stringify(cityNames));
+    // list.appendChild(button);
+// }
+
