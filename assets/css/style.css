@@ -13,9 +13,19 @@ h1 {
     padding-bottom: .35rem;
 }
 
-#citySearch, #searchBtn { 
-    width: 20rem;
+#citySearch, #searchBtn, .list-group-item { 
+    width: 15rem;
     height: 2rem;
     border-radius: 5px;
+    text-align: center;
     
+}
+
+#searchBtn, .list-group-item {
+    margin-top: 1rem;
+
+}
+
+#centerThis{
+    text-align: inherit;
 }

@@ -26,23 +26,32 @@
     </header>
 
     <section class="textInputEl">
-        <div class="row">
+        <div class="container">
             <h2>Search for a city:</h2>
             <div class="col-4" id="actualTextIn">
 
                 <!-- When the input field gets focus, replace its current value with an empty string -->
-                <input type="text" id="citySearch" onfocus="this.value=" value="Input City Here!">
-                <button class="btn btn-outline-success" type="submit" id="searchBtn">Search</button>
+                <input type="text" class="input-group-prepend" id="citySearch" onfocus="this.value=''" value="Input City Here!">
+                <button class="btn btn-outline-success" type="submit" id="searchBtn"><span id="centerThis">Search</span></button>
             </div>
 
     </section>
-    <section class="right">
+    <section class="container">
         <div id="cityStats">
 
         </div>
         <div id="fiveDayFore">
 
         </div>
+        <div class="list-group" id="cityListEl"> 
+            <!-- <a href="#" class="list-group-item list-group-item-action">
+              Alpha
+            </a> -->
+            <!-- <a href="#" class="list-group-item list-group-item-action"></a> -->
+            <!-- <a href="#" class="list-group-item list-group-item-action">Charlie</a>
+            <a href="#" class="list-group-item list-group-item-action">Delta</a>
+            <a href="#" class="list-group-item list-group-item-action">Echo</a> -->
+          </div>
     </section>
     <script src="./assets/js/script.js"></script>
 </body>
