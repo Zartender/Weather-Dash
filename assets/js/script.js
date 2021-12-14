@@ -36,8 +36,9 @@ function pageInit() {
                 const day = currentDate.getDate();
                 const month = currentDate.getMonth() + 1;
                 const year = currentDate.getFullYear();
+                console.log(currentDate, day, month, year);
                 nameEl.innerHTML = response.data.name + " (" + month + "/" + day + "/" + year + ") ";
-                let weatherPic = response.data.weather[0].icon;
+                
                 
                 currentPicEl.setAttribute("alt", response.data.weather[0].description);
                 currentTempEl.innerHTML = "Temperature: " + k2f(response.data.main.temp) + " &#176F";
